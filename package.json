@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-henderea",
+  "version": "0.0.1",
+  "description": "ESLint Config used by henderea",
+  "main": "index.js",
+  "author": "henderea",
+  "license": "MIT",
+  "repository": "https://github.com/henderea/eslint-config-henderea.git",
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.30.0",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  }
+}
