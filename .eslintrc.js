@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   env: {
     node: true,
     commonjs: true,
@@ -8,7 +8,8 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   parserOptions: {
-    ecmaVersion: 2020
+    ecmaVersion: 2020,
+    requireConfigFile: false
   },
   rules: {
     indent: [
