@@ -4,7 +4,8 @@ module.exports = {
     node: true,
     commonjs: true,
     browser: true,
-    jquery: true
+    jquery: true,
+    es6: true
   },
   extends: 'eslint:recommended',
   parserOptions: {
