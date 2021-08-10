@@ -94,6 +94,7 @@ module.exports = {
     'arrow-parens': [
       'error',
       'always'
-    ]
+    ],
+    'no-constant-condition': 0
   }
 };
