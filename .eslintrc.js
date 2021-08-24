@@ -83,6 +83,9 @@ module.exports = {
           },
           switch: {
             after: false
+          },
+          catch: {
+            after: false
           }
         }
       }
