@@ -7,16 +7,16 @@
   "license": "MIT",
   "repository": "https://github.com/henderea/eslint-config-henderea.git",
   "peerDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
-    "eslint": "^8.4.1",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint": "^8.6.0",
+    "eslint-plugin-import": "^2.25.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
-    "eslint": "^8.4.1",
-    "eslint-plugin-import": "^2.25.3"
+    "eslint": "^8.6.0",
+    "eslint-plugin-import": "^2.25.4"
   },
   "scripts": {
     "lint": "eslint .",
