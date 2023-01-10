@@ -1,5 +1,5 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
+  parser: '@typescript-eslint/parser',
   env: {
     node: true,
     commonjs: true,
@@ -7,7 +7,13 @@ module.exports = {
     jquery: true,
     es6: true
   },
-  extends: 'eslint:recommended',
+  plugins: [
+    '@typescript-eslint'
+  ],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended'
+  ],
   parserOptions: {
     ecmaVersion: 2020,
     requireConfigFile: false
@@ -95,6 +101,7 @@ module.exports = {
       'error',
       'always'
     ],
-    'no-constant-condition': 0
+    'no-constant-condition': 0,
+    '@typescript-eslint/no-var-requires': 0
   }
 };
