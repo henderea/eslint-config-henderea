@@ -27,7 +27,8 @@ module.exports = {
       'error',
       'unix'
     ],
-    semi: [
+    semi: 0,
+    '@typescript-eslint/semi': [
       'error',
       'always'
     ],
@@ -48,7 +49,8 @@ module.exports = {
     'no-underscore-dangle': 0,
     'consistent-return': 0,
     radix: 0,
-    quotes: [
+    quotes: 0,
+    '@typescript-eslint/quotes': [
       2,
       'single',
       {
@@ -66,7 +68,8 @@ module.exports = {
     'no-trailing-spaces': [
       'error'
     ],
-    'space-before-function-paren': [
+    'space-before-function-paren': 0,
+    '@typescript-eslint/space-before-function-paren': [
       'error',
       {
         anonymous: 'never',
@@ -74,7 +77,8 @@ module.exports = {
         asyncArrow: 'always'
       }
     ],
-    'keyword-spacing': [
+    'keyword-spacing': 0,
+    '@typescript-eslint/keyword-spacing': [
       'error',
       {
         overrides: {
@@ -93,7 +97,8 @@ module.exports = {
         }
       }
     ],
-    'object-curly-spacing': [
+    'object-curly-spacing': 0,
+    '@typescript-eslint/object-curly-spacing': [
       'error',
       'always'
     ],
@@ -102,6 +107,8 @@ module.exports = {
       'always'
     ],
     'no-constant-condition': 0,
-    '@typescript-eslint/no-var-requires': 0
+    '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/ban-ts-comment': 0
   }
 };
