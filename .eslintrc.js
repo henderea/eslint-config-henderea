@@ -121,6 +121,7 @@ module.exports = {
         'varsIgnorePattern': '^_',
         'caughtErrorsIgnorePattern': '^_'
       }
-    ]
+    ],
+    '@typescript-eslint/no-this-alias': 0
   }
 };
