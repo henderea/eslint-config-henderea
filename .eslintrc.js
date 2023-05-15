@@ -122,6 +122,7 @@ module.exports = {
         'caughtErrorsIgnorePattern': '^_'
       }
     ],
-    '@typescript-eslint/no-this-alias': 0
+    '@typescript-eslint/no-this-alias': 0,
+    'no-control-regex': 0
   }
 };
