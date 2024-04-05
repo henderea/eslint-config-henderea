@@ -21,7 +21,7 @@
     "@typescript-eslint/parser": "^7.5.0",
     "eslint": "^8.57.0",
     "eslint-plugin-import": "^2.29.1",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "scripts": {
     "lint": "eslint .",
