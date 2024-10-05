@@ -31,6 +31,8 @@ export default [
       },
     },
 
+    files: ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx', '**/*.ts', '**/*.tsx'],
+
     rules: {
       indent: ['error', 2, {
         SwitchCase: 1,
