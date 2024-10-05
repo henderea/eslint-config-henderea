@@ -115,6 +115,7 @@ export default [
       'no-redeclare': ['error', {
         builtinGlobals: false,
       }],
+      '@typescript-eslint/no-require-imports': 0,
     },
   },
 ];
