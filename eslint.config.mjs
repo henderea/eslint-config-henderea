@@ -112,6 +112,9 @@ export default [
       '@typescript-eslint/no-this-alias': 0,
       'no-control-regex': 0,
       '@typescript-eslint/no-namespace': 0,
+      'no-redeclare': ['error', {
+        builtinGlobals: false,
+      }],
     },
   },
 ];
