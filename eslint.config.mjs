@@ -9,6 +9,9 @@ export default [
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
+    files: ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx', '**/*.ts', '**/*.tsx'],
+  },
+  {
     plugins: {
       '@typescript-eslint': typescriptEslint,
       '@stylistic': stylistic,
@@ -30,8 +33,6 @@ export default [
         requireConfigFile: false,
       },
     },
-
-    files: ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx', '**/*.ts', '**/*.tsx'],
 
     rules: {
       indent: ['error', 2, {
