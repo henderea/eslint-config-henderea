@@ -59,7 +59,7 @@ export default [
 
       '@stylistic/quotes': [2, 'single', {
         avoidEscape: true,
-        allowTemplateLiterals: true,
+        allowTemplateLiterals: 'always',
       }],
 
       'import/no-extraneous-dependencies': 0,
