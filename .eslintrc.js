@@ -16,7 +16,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 2020,
-    requireConfigFile: false
+    requireConfigFile: false,
+    jsx: true
   },
   rules: {
     indent: [
