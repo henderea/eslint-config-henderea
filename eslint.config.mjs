@@ -12,6 +12,11 @@ export default [
     files: ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx', '**/*.ts', '**/*.tsx'],
   },
   {
+    linterOptions: {
+      reportUnusedDisableDirectives: false
+    }
+  },
+  {
     plugins: {
       '@typescript-eslint': typescriptEslint,
       '@stylistic': stylistic,
@@ -31,6 +36,9 @@ export default [
 
       parserOptions: {
         requireConfigFile: false,
+        ecmaFeatures: {
+          jsx: true
+        },
       },
     },
 

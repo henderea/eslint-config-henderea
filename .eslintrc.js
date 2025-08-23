@@ -21,9 +21,6 @@ module.exports = {
       jsx: true
     }
   },
-  linterOptions: {
-    reportUnusedDisableDirectives: false
-  },
   rules: {
     indent: [
       'error',
