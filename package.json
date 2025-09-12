@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-henderea",
-  "version": "2.0.78",
+  "version": "2.0.79",
   "description": "ESLint Config used by henderea",
   "main": "index.mjs",
   "author": "henderea",
