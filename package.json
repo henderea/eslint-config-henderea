@@ -16,7 +16,7 @@
     "eslint": "^9.36.0",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^16.4.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.45.0"
   },
   "peerDependencies": {
@@ -26,7 +26,7 @@
     "eslint": "^9.36.0",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^16.4.0",
-    "typescript": "^5.9.2",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.45.0"
   },
   "scripts": {
