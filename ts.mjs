@@ -9,7 +9,7 @@ import rules from './common-rules.mjs';
 
 export default [
   js.configs.recommended,
-  ...tseslint.configs.recommended,
+  ...tseslint.configs.recommendedTypeChecked,
   {
     files: ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx', '**/*.ts', '**/*.tsx'],
   },
@@ -38,12 +38,20 @@ export default [
 
       parserOptions: {
         requireConfigFile: false,
+        projectService: {
+          allowDefaultProject: ['*.mjs', '*.js', '*.cjs', '*.jsx'],
+        },
         ecmaFeatures: {
           jsx: true
         },
       },
     },
 
-    rules,
+    rules: {
+      ...rules,
+      '@typescript-eslint/prefer-optional-chain': 'error',
+      '@typescript-eslint/no-unsafe-member-access': 0,
+      '@typescript-eslint/no-unsafe-assignment': 0,
+    }
   }
 ];
