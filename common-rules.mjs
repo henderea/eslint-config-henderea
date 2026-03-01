@@ -89,4 +89,13 @@ export default {
     'ignoreReadBeforeAssign': false
   }],
   '@typescript-eslint/prefer-for-of': 'error',
+  '@typescript-eslint/no-unsafe-member-access': 0,
+  '@typescript-eslint/no-unsafe-assignment': 0,
+  '@typescript-eslint/no-unsafe-call': 0,
+  '@typescript-eslint/no-unsafe-argument': 0,
+  '@typescript-eslint/no-unsafe-declaration-merging': 0,
+  '@typescript-eslint/no-unsafe-function-type': 0,
+  '@typescript-eslint/no-unsafe-return': 0,
+  '@typescript-eslint/require-await': 0,
+  '@typescript-eslint/unbound-method': 0,
 };
