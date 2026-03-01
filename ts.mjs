@@ -57,6 +57,7 @@ export default [
       '@typescript-eslint/no-unsafe-declaration-merging': 0,
       '@typescript-eslint/no-unsafe-function-type': 0,
       '@typescript-eslint/no-unsafe-return': 0,
+      '@typescript-eslint/require-await': 0,
     }
   }
 ];
