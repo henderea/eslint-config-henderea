@@ -50,6 +50,14 @@ export default [
     rules: {
       ...rules,
       '@typescript-eslint/prefer-optional-chain': 'error',
+      '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+      '@typescript-eslint/prefer-readonly': 'error',
+      '@typescript-eslint/prefer-readonly-parameter-types': 'error',
+      '@typescript-eslint/class-literal-property-style': ['error', 'getters'],
+      '@typescript-eslint/prefer-return-this-type': 'error',
+      '@typescript-eslint/return-await': 'error',
+      'dot-notation': 'off',
+      '@typescript-eslint/dot-notation': 'error',
     }
   }
 ];
