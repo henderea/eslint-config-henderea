@@ -53,6 +53,7 @@ export default {
   }],
 
   '@stylistic/object-curly-spacing': ['error', 'always'],
+  '@stylistic/block-spacing': ['error', 'always'],
   '@stylistic/arrow-parens': ['error', 'always'],
   'no-constant-condition': 0,
   '@typescript-eslint/no-explicit-any': 0,
